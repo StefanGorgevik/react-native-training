@@ -1,0 +1,18 @@
+{
+  "extends": "@react-native-community",
+  "rules": {
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "react/no-string-refs": [0, { "noTemplateLiterals": false }],
+    "react/jsx-no-comment-textnodes": [0]
+  },
+  "plugins": ["prettier", "js", "flowtype", "jsx", "flow"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
